@@ -6,3 +6,22 @@ How is the staging area different from the working directory and the repository?
 
 the staging area is different from the working directory and the respository as you add files from the repository into the staging area first before you commit. this segments out your logical changes to your work and add separate messages to your commit log to signify that that you have added a new separate feature. the working  directory is the folder in which you have initialized your git repo to and the history of your git repo is tied to that directory and all other sub-directories in that main directory.
 This staging area offers a benefit in that you might not want to commit all your things all together all the time, and just commit the changes to the files that you change at the time.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the staging area to make sure you have one one commit per logical change by running the commant git diff --stage.
+Git diff --staged compares the changes added to the staging area vs the most recently commit to see what things have changed since then. if you do not want to go ahead with the commit, you can simply run git rest --hard to clear the staging area of any changes that you didn't want and checkpoint at your last commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+if you give branches names, it will help you organize separate variants of your main branch that you want to be working with. Having branches allows for multiple people work on the same project on different version of the main product without affecting the main branch. You can then later merge branches if you want to combine the work that you accomplished on two or more different branches. The idea is that you should have a master branch (which is your production level branch - never breaks always works), then a development branch (where active work is taking place on your project), and then you'd have an experimental branch or unique feature branches. Unique feature branches and experimental branches. These are unique branches that you are working on and you fully expect them to break. Branches help with context switching (for example, you are working on something for a bit, and you hit a snag on the wall and you want to revisit it later, you can always continue your work on a different branch)
+
+NOTE: a common workflow for if and when you are working on a team with a bunch of people working on projects together includes making a new branch for each feature or bug fix. This way, if multiple people are working at the same time, they can each checkout their branch to continue work after taking a break, without worrying about things changing up from under them. Then, once a feature or bug fix is complete, the author can either update the master, to also point to the tip of the new branch, OR, if there have been changes to master in the mean time, combine (merge) it with the current master, 
+
+How do the diagrams help you visualize the branch structure?
+
+diagrams help you to see the lineage of the commits you have created, from most recent tips of your branches of your work tree. This helps you to visualize where you've come from when there are multiple divergent branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+the result of merging two branches is merging the history of commits and the merging of the tips of those branches into one commmit. 
