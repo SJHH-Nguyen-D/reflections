@@ -1,3 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 you want to use a remote repository when you are pulling from an online repo such as one from GitHub, so that you can do collaborative and parallelized work. This way, other people on your team can collaborate on the same project at the same time as you. Having things stored locally is risky if you do not have backup for it.
+
+I am making a small change here just for the sake of the exercise
