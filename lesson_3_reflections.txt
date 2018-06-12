@@ -3,3 +3,8 @@ When would you want to use a remote repository rather than keeping all your work
 you want to use a remote repository when you are pulling from an online repo such as one from GitHub, so that you can do collaborative and parallelized work. This way, other people on your team can collaborate on the same project at the same time as you. Having things stored locally is risky if you do not have backup for it.
 
 I am making a small change here just for the sake of the exercise
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+
+You want to pull manually because you don't know whether the changes up on the remote repo would be beneficial to you or not. The changes made directly on GitHub repo might be deleterous by introducing a bug and therefore you may want to be judicious about your pulling from the online repo.
