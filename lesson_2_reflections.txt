@@ -1,2 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+git init to initialize your repository. when you initialize it, you get a .git file created in your directory and it gets tied to that repository. you cannot see it in the traditional windows explorer but if you use ls -a you can see hidden files and thats what the .git file is. it tracks the history of yoru commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+the staging area is different from the working directory and the respository as you add files from the repository into the staging area first before you commit. this segments out your logical changes to your work and add separate messages to your commit log to signify that that you have added a new separate feature. the working  directory is the folder in which you have initialized your git repo to and the history of your git repo is tied to that directory and all other sub-directories in that main directory.
+This staging area offers a benefit in that you might not want to commit all your things all together all the time, and just commit the changes to the files that you change at the time.
