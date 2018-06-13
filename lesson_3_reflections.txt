@@ -17,3 +17,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 the benefit of having a copy of the last known state of the remote stored locally helps us to understand where the author left off with the remote and what updates and advancements to their code have we improved upon.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+If we were to collaborate without using git or github, it would be more difficult as proposing changes and having a main devleopment workflow and keeping it consistent across the various players/nodes would be difficult. Having a main repo to collaborate on/split work flow/propose changes collaboratively would help prevent duplication of work and reduce the risk of bugs and collisions by the end of the project.
