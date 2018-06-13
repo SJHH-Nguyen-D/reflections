@@ -8,3 +8,12 @@ Why might you want to always pull changes manually rather than having Git automa
 
 
 You want to pull manually because you don't know whether the changes up on the remote repo would be beneficial to you or not. The changes made directly on GitHub repo might be deleterous by introducing a bug and therefore you may want to be judicious about your pulling from the online repo.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+forks are a copy of someone's repo online that you now have on your online repo. forks are like clones, except they exist on GitHub, whereas clones exist locally. You can clone from a fork but not fork from a clone. That would just be you pushing into an empty repo on Github. Branches are a split from your commit chain and although they sound similar to the concept of forking, they are only done locally. You would branch for when you want to create a subproject of your master or production level branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+the benefit of having a copy of the last known state of the remote stored locally helps us to understand where the author left off with the remote and what updates and advancements to their code have we improved upon.
+
